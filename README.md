@@ -22,3 +22,13 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+# テーブル設計
+
+## events テーブル
+
+| Column   | Type   |
+| -------- | ------ |
+| name     | string |
+| email    | text   |
+| password | date   |
+
