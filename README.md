@@ -26,9 +26,9 @@ Things you may want to cover:
 
 ## events テーブル
 
-| Column   | Type   |
-| -------- | ------ |
-| name     | string |
-| email    | text   |
-| password | date   |
+| Column     | Type   |
+| --------   | ------ |
+| title      | string |
+| content    | text   |
+| start_time | date   |
 

@@ -1,10 +1,16 @@
-<p id="notice"><%= notice %></p>
-
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>僕だけの練習日記</title>
+    <link rel="stylesheet" href="style3-3.css">
+  </head>
 <h1>僕だけの練習日記</h1>
 <p>練習内容を記載しよう</p>
-
-<%= link_to '新規投稿', new_event_path %>
-
+<body>
+  <%= link_to '新規投稿', new_event_path %>
+  <a href="https://www.google.com/search?q=%E7%B7%B4%E7%BF%92%E6%97%A5%E8%A8%98+%E6%9B%B8%E3%81%8D%E6%96%B9&oq=%E7%B7%B4%E7%BF%92%E6%97%A5%E8%A8%98&aqs=chrome.2.69i57j0l3j0i30i395l3j0i5i30i395.7655j1j7&sourceid=chrome&ie=UTF-8">練習日記 書き方</a>
+</body>
 <%= month_calendar events: @events do |date, events| %>
   <%= date.day %>
   <% events.each do |event| %>
